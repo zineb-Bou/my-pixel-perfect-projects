@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+body {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.8125rem;
+  font-weight: 500;
+  background-color: #ecf2f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 2px solid #000;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.sub_title {
+  margin: 0;
+  opacity: 50%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  margin-top: 18px;
+  z-index: 1;
+  line-height: 18px;
+  opacity: 70%;
+}
+
+.container {
+  margin: 50px 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 250px 250px 250px 240px;
+  grid-template-rows: 280px, 280px;
+}
+
+.container .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin: 20px;
+  margin-bottom: 15px;
+  z-index: 10;
+}
+
+.container .profile .name_occupation {
+  margin-left: 24px;
+}
+
+.container .testimonial_section {
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container .card_1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-color: #7541c8;
+  color: #cfcfcf;
+  position: relative;
+}
+
+.container .card_1 .avatar {
+  border-color: #a774f3;
+}
+
+.container .card_1 .quotation {
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+
+.container .card_1 .testimonial_section {
+  z-index: 1;
+}
+
+.container .card_2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: #48556a;
+  color: #cfcfcf;
+}
+
+.container .card_2 .avatar {
+  border-color: #cfcfcf;
+}
+
+.container .card_3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: white;
+  color: #4d5055;
+}
+
+.container .card_3 h1 {
+  max-width: 180px;
+}
+
+.container .card_3 .avatar {
+  border-color: #cfcfcf;
+}
+
+.container .card_4 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: #19212e;
+  color: #cfcfcf;
+}
+
+.container .card_4 .avatar {
+  border-color: #a774f3;
+}
+
+.container .card_5 {
+  grid-column: 4/5;
+  grid-row: 1/3;
+  background-color: white;
+  color: #4d5055;
+}
+
+.container .card_5 .avatar {
+  border-color: #cfcfcf;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 100%;
+    grid-template-rows: none;
+    margin: 30px;
+  }
+  .container .card_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .container .card_1 .quotation {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  .container .card_2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .container .card_3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .container .card_3 h1 {
+    max-width: 200px;
+  }
+  .container .card_4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .container .card_5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+}
