@@ -4,7 +4,7 @@ Hi there 👋, thank you for checking my projects
 
 ## List of the projects
 
-|  #  | Project name & repo link                                                                                                                     | Live Demo                                                                         |
+|  #  | Project name & Repo link                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 1. | [Github user search app](https://github.com/zineb-Bou/user-search-app.)                                      | [Live Demo ](https://zineb-bou.github.io/user-search-app./)                                        |
 | 2. |[Ip address tracker](https://github.com/zineb-Bou/ip-address-tracker)                                          | [Live Demo ](https://zineb-bou.github.io/ip-address-tracker/)                                     |
