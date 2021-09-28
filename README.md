@@ -1,4 +1,4 @@
-# my pixel-perfect projects
+# My pixel-perfect projects
 
 Hi there 👋, thank you for checking my projects
 
