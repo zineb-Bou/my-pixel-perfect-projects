@@ -14,4 +14,4 @@ Hi there 👋, thank you for checking my projects
 | 6.| [Sunnyside agency landing page solution](https://github.com/zineb-Bou/Sunnyside-agency-landing-page-solution.) | [Live Demo ](https://zineb-bou.github.io/Sunnyside-agency-landing-page-solution./)                |
 | 7. |[Calculator app](https://github.com/zineb-Bou/Calculator_app)                                                  | [Live Demo ](https://zineb-bou.github.io/Calculator_app/)                                         |
 
-More project coming soon 💪
+More projects coming soon 💪
