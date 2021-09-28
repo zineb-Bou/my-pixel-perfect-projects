@@ -1,0 +1,73 @@
+:root {
+  /* Theme 3 */
+
+  /* Backgrounds */
+  /*  (main background) */
+  --Very_dark_violet_1: hsl(268, 75%, 9%);
+  /* (toggle background, keypad background, screen background) */
+  --Very_dark_violet_2: hsl(268, 71%, 12%);
+
+  /* Keys */
+  /* (key background) */
+  --Dark_violet: hsl(281, 89%, 26%);
+  /* (key shadow) */
+  --Vivid_magenta: hsl(285, 91%, 52%);
+  /* (key background, toggle) */
+  --Pure_cyan: hsl(176, 100%, 44%);
+  /* (key shadow) */
+  --Soft_cyan: hsl(177, 92%, 70%);
+  /* (key background) */
+  --Very_dark_violet_3: hsl(268, 47%, 21%);
+  /* (key shadow) */
+  --Dark_magenta: hsl(290, 70%, 36%);
+
+  /* Text */
+
+  --Light_yellow: hsl(52, 100%, 62%);
+  --Very_dark_blue: hsl(198, 20%, 13%);
+  --White: hsl(0, 0, 100%);
+}
+body {
+  background-color: var(--Very_dark_violet_1);
+  color: var(--Light_yellow);
+}
+
+.top_section .toggle_switch {
+  background-color: var(--Dark_violet);
+}
+
+.top_section .toggle_switch .switch .checkmark {
+  background-color: var(--Pure_cyan);
+}
+
+.screen_section {
+  background-color: var(--Very_dark_violet_2);
+}
+
+.keybork_grid {
+  background-color: var(--Very_dark_violet_2);
+}
+
+.keybork_grid > button {
+  background-color: var(--Dark_violet);
+  box-shadow: 0px 3px 1px var(--Vivid_magenta);
+  color: var(--Light_yellow);
+}
+
+#DEL {
+  background-color: var(--Very_dark_violet_3);
+  box-shadow: 0px 2px 1px var(--Dark_magenta);
+  color: var(--White);
+}
+
+#EQUAL {
+  background-color: var(--Pure_cyan);
+  box-shadow: 0px 2px 1px var(--Soft_cyan);
+  color: var(--Very_dark_blue);
+}
+
+#RESET {
+  background-color: var(--Very_dark_violet_3);
+  box-shadow: 0px 2px 1px var(--Dark_magenta);
+  color: var(--White);
+}

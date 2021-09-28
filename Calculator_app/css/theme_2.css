@@ -1,0 +1,74 @@
+:root {
+  /* Theme 2 */
+
+  /* Backgrounds */
+
+  /* (main background) */
+  --Light_gray: hsl(0, 0%, 90%);
+  /* (toggle background, keypad background) */
+  --Grayish: hsl(0, 5%, 81%);
+  /* (screen background) */
+  --Very_light_gray: hsl(0, 0%, 93%);
+
+  /* Keys */
+  /* (key shadow) */
+  --Dark_moderate_cyan: hsl(185, 42%, 37%);
+  --Very_dark_cyan: hsl(185, 58%, 25%);
+  /* (key background, toggle) */
+  --Orange: hsl(25, 98%, 40%);
+  /*  (key shadow) */
+  --Dark_orange: hsl(25, 99%, 27%);
+  /* (key background) */
+  --Light_grayish_yellow: hsl(45, 7%, 89%);
+  /* (key shadow) */
+  --Dark_grayish_orange: hsl(35, 11%, 61%);
+
+  /* Text */
+
+  --Very_dark_grayish_yellow: hsl(60, 10%, 19%);
+  /* (text) */
+  --White: hsl(0, 0, 100%);
+}
+body {
+  background-color: var(--Light_gray);
+  color: var(--Very_dark_grayish_yellow);
+}
+
+.top_section .toggle_switch  {
+  background-color: var(--Grayish);
+}
+
+.top_section .toggle_switch .switch .checkmark {
+  background-color: var(--Orange);
+}
+
+.screen_section {
+  background-color: var(--Very_light_gray);
+}
+
+.keybork_grid {
+  background-color: var(--Grayish);
+}
+
+.keybork_grid > button {
+  background-color: var(--Light_grayish_yellow);
+  box-shadow: 0px 3px 1px var(--Dark_grayish_orange);
+}
+
+#DEL {
+  background-color: var(--Dark_moderate_cyan);
+  box-shadow: 0px 2px 1px var(--Very_dark_cyan);
+  color: var(--Light_grayish_orange);
+}
+
+#RESET {
+  background-color: var(--Dark_moderate_cyan);
+  box-shadow: 0px 2px 1px var(--Very_dark_cyan);
+  color: var(--White);
+}
+
+#EQUAL {
+  background-color: var(--Orange);
+  box-shadow: 0px 2px 1px var(--Dark_orange);
+  color: var(--White);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme_1.css" id="theme_link" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="top_section">
+        <h1 class="title">calc</h1>
+        <div class="theme">
+          <p class="title">theme</p>
+          <div class="theme_btn">
+            <div class="labels">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="toggle_switch">
+              <label class="switch">
+                <input
+                  id="checkbox_1"
+                  type="checkbox"
+                  checked
+                  name="check"
+                  onclick="onlyOne(this)"
+                />
+                <span class="checkmark"></span>
+              </label>
+              <label class="switch">
+                <input
+                  id="checkbox_2"
+                  type="checkbox"
+                  name="check"
+                  onclick="onlyOne(this)"
+                />
+                <span class="checkmark"></span>
+              </label>
+              <label class="switch">
+                <input
+                  id="checkbox_3"
+                  type="checkbox"
+                  name="check"
+                  onclick="onlyOne(this)"
+                />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen_section">
+        <div class="digits">0</div>
+      </div>
+      <div class="keybork_grid">
+        <button type="button" class="num_btn num_7" value="7">7</button>
+        <button type="button" class="num_btn num_8" value="8">8</button>
+        <button type="button" class="num_btn num_9" value="9">9</button>
+        <button type="button" id="DEL">DEL</button>
+
+        <button type="button" class="num_btn num_4" value="4">4</button>
+        <button type="button" class="num_btn num_5" value="5">5</button>
+        <button type="button" class="num_btn num_6" value="6">6</button>
+        <button type="button" class="PLUS_OPER" value="+">+</button>
+
+        <button type="button" class="num_btn num_1" value="1">1</button>
+        <button type="button" class="num_btn num_2" value="2">2</button>
+        <button type="button" class="num_btn num_3" value="3">3</button>
+        <button type="button" class="MINUS_OPER" value="-">-</button>
+        <button type="button" class="num_btn DOT" value=".">.</button>
+        <button type="button" class="num_btn num_0" value="0">0</button>
+        <button type="button" class="SLASH" value="/">/</button>
+        <button type="button" class="MULTO_OPER" value="*">*</button>
+
+        <button id="RESET">RESET</button>
+        <button id="EQUAL" value="=">=</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
