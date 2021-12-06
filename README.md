@@ -15,5 +15,7 @@ Hi there 👋, thank you for checking my projects
 | 7. |[Calculator app](https://github.com/zineb-Bou/Calculator_app)                                                  | [Live Demo ](https://zineb-bou.github.io/Calculator_app/)   
 | 8. |[Arch Studio multi page website](https://github.com/zineb-Bou/Arch-Studio-multi-page-website)                  | [Live Demo ](https://arch-studio-multi-page-website-mu.vercel.app/)  |
 | 9. |[fylo dark theme landing page mobile first approach](https://github.com/zineb-Bou/fylo-dark-theme-landing-page) | [Live Demo ](https://stupefied-lichterman-01872a.netlify.app/)  |
+| 10. |[FAQ accordion card](https://github.com/zineb-Bou/FAQ-accordion-card) | [Live Demo ](https://cocky-hodgkin-a51a83.netlify.app/)  |
+| 11. |[Interactive pricing component](https://github.com/zineb-Bou/Interactive-pricing-component) | [Live Demo ]()  |
 
 More projects coming soon 💪
