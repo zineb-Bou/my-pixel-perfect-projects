@@ -16,6 +16,6 @@ Hi there 👋, thank you for checking my projects
 | 8. |[Arch Studio multi page website](https://github.com/zineb-Bou/Arch-Studio-multi-page-website)                  | [Live Demo ](https://arch-studio-multi-page-website-mu.vercel.app/)  |
 | 9. |[fylo dark theme landing page mobile first approach](https://github.com/zineb-Bou/fylo-dark-theme-landing-page) | [Live Demo ](https://stupefied-lichterman-01872a.netlify.app/)  |
 | 10. |[FAQ accordion card](https://github.com/zineb-Bou/FAQ-accordion-card) | [Live Demo ](https://cocky-hodgkin-a51a83.netlify.app/)  |
-| 11. |[Interactive pricing component](https://github.com/zineb-Bou/Interactive-pricing-component) | [Live Demo ]()  |
+| 11. |[Interactive pricing component](https://github.com/zineb-Bou/Interactive-pricing-component) | [Live Demo ](https://heuristic-ramanujan-6992a7.netlify.app/)  |
 
 More projects coming soon 💪
