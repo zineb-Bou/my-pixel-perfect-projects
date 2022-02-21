@@ -5,6 +5,7 @@ Hi there 👋, thank you for checking my projects
 ## List of the projects
 
 |  #  | Project name & Repo link                                                                | Live Demo                                                             |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------|
 | 1. |[Social media dashboard](https://github.com/zineb-Bou/Social-media-dashboard)             | [Live Demo ](https://gracious-galileo-288f6d.netlify.app/)|
 | 2. |[Chat app illustratioin](https://github.com/zineb-Bou/Chat-app-CSS-illustration)          | [Live Demo ](https://zineb-bou.github.io/Chat-app-CSS-illustration/)|
 | 3.| [Testimonials grid section solution](https://github.com/zineb-Bou/Testimonials-grid-section-solution.)         | [Live Demo ](https://zineb-bou.github.io/Testimonials-grid-section-solution./)|          
