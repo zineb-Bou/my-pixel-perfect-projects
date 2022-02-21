@@ -14,4 +14,4 @@ Hi there 👋, thank you for checking my projects
 | 6. |[fylo dark theme landing page mobile first approach](https://github.com/zineb-Bou/fylo-dark-theme-landing-page) | [Live Demo ](https://stupefied-lichterman-01872a.netlify.app/)  |
 | 7. |[FAQ accordion card](https://github.com/zineb-Bou/FAQ-accordion-card) | [Live Demo ](https://cocky-hodgkin-a51a83.netlify.app/)  |
 | 8. |[Interactive pricing component](https://github.com/zineb-Bou/Interactive-pricing-component) | [Live Demo ](https://heuristic-ramanujan-6992a7.netlify.app/)  |
-| 9. |[Interactive pricing component](https://github.com/zineb-Bou/Advice-generator-app) | [Live Demo ](https://6213987bcc4e5c0dada1f670--jolly-visvesvaraya-a24674.netlify.app/)|
+| 9. |[Advice generator](https://github.com/zineb-Bou/Advice-generator-app) | [Live Demo ](https://6213987bcc4e5c0dada1f670--jolly-visvesvaraya-a24674.netlify.app/)|
